@@ -18,10 +18,5 @@ pipeline
                   sh '/opt/maven/bin/mvn clean install'
                  }
     }
-  stage ('Deploy')
-  {     steps   {
-                  echo "Deployed"
-                  }
-   }
 }
 }
