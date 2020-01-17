@@ -1,19 +1,24 @@
-node('master')
-{ stage ('git checkout SCM')
-      { git 'https://github.com/jyotiupadhyay/mvn_sonar'
+pipeline{ 
+      agent any
+      stages{ 
+ stage ('git checkout SCM')
+      { 
+            steps{
+            git 'https://github.com/jyotiupadhyay/mvn_sonar'
+      }
       }
  stage ('Analysis')
-    {     step {
+    {     steps {
                 sh '/opt/maven/bin/mvn clean verify sonar:sonar'
                 }
      }
   stage ('Build')
-    {     step  {
+    {     steps  {
                   sh '/opt/maven/bin/mvn clean install'
                  }
     }
   stage ('Deploy')
-  {     step    {
+  {     steps   {
                   echo "Deployed"
                   }
    }
