@@ -5,7 +5,7 @@ pipeline
  stage ('git checkout SCM')
       { 
             steps{
-            git 'https://github.com/jyotiupadhyay/mvn_sonar'
+            git 'https://github.com/jyotiupadhyay/mvn_sonar.git'
       }
       }
  stage ('Analysis')
