@@ -1,4 +1,5 @@
-pipeline{ 
+pipeline
+{ 
       agent any
       stages{ 
  stage ('git checkout SCM')
@@ -22,4 +23,5 @@ pipeline{
                   echo "Deployed"
                   }
    }
+}
 }
