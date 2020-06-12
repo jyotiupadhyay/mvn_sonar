@@ -25,7 +25,8 @@
  <distributionManagement>
     <snapshotRepository>
         <id>artifactory</id>
-        <url>http://18.191.146.181:8081/artifactory/</url>
+        <name>ip-172-31-17-53.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.191.146.181:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
