@@ -22,11 +22,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
-        <id>snapshots</id>
-        
-        <url>http://18.191.146.181:8081/artifactory/libs-snapshot</url>
+        <id>artifactory</id>
+        <url>http://18.191.146.181:8081/artifactory/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
