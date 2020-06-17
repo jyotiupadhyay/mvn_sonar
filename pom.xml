@@ -4,14 +4,14 @@
 
   <groupId>sonar_test</groupId>
   <artifactId>com.sonar.maven</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <scm>
        <connection>scm:https://github.com/jyotiupadhyay/maven-multi-module-example.git</connection>
        <url>https://github.com/jyotiupadhyay/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/jyotiupadhyay/maven-multi-module-example.git</developerConnection>
-      <tag>rel-1.1</tag>
+      <tag>rel-1.0</tag>
   </scm>
 
   
