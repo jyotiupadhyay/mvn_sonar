@@ -8,9 +8,9 @@
   <packaging>jar</packaging>
 
   <scm>
-       <connection>scm:https://github.com/jyotiupadhyay/maven-multi-module-example.git</connection>
-       <url>https://github.com/jyotiupadhyay/maven-multi-module-example.git</url>
-       <developerConnection>scm:git:https://github.com/jyotiupadhyay/maven-multi-module-example.git</developerConnection>
+       <connection>scm:https://github.com/jyotiupadhyay/mvn_sonar.git</connection>
+       <url>https://github.com/jyotiupadhyay/mvn_sonar.git</url>
+       <developerConnection>scm:git:https://github.com/jyotiupadhyay/mvn_sonar.git</developerConnection>
       <tag>rel-1.0</tag>
   </scm>
 
