@@ -11,7 +11,7 @@
        <connection>scm:https://github.com/jyotiupadhyay/mvn_sonar.git</connection>
        <url>https://github.com/jyotiupadhyay/mvn_sonar.git</url>
        <developerConnection>scm:git:https://github.com/jyotiupadhyay/mvn_sonar.git</developerConnection>
-      <tag>rel-1.1</tag>
+      <tag>1.1</tag>
   </scm>
 
   
